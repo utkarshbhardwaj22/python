@@ -25,7 +25,7 @@ num1=5
 
 num2=num1 #copyoperation| reference copy
 
-num1+=5
+#num1+=5
 print(num1)
 
 # *=,/=,//=,*=,**=
