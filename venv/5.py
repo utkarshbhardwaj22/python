@@ -4,6 +4,10 @@ print(dishes)
 print(hex(id(dishes)))
 print(type(dishes))
 
-print(dishes["dal"])
+print(dishes["dal"],hex(id(dishes["dal"])))
+print(dishes["paneer"],hex(id(dishes["paneer"])))
+print(dishes["chicken"],hex(id(dishes["chicken"])))
 
+print("dal" in dishes)
+print(100 in dishes)
 # Draw memory Representation of Dictionary
